@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA22752B1D411CAD008FDD22 /* Tips.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA22752A1D411CAD008FDD22 /* Tips.jpg */; };
+		DA22753A1D412347008FDD22 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA22752D1D412347008FDD22 /* Icon-App-29x29@1x.png */; };
+		DA22753B1D412347008FDD22 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA22752E1D412347008FDD22 /* Icon-App-29x29@2x.png */; };
+		DA22753C1D412347008FDD22 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA22752F1D412347008FDD22 /* Icon-App-29x29@3x.png */; };
+		DA22753D1D412347008FDD22 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2275301D412347008FDD22 /* Icon-App-40x40@1x.png */; };
+		DA22753E1D412347008FDD22 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2275311D412347008FDD22 /* Icon-App-40x40@2x.png */; };
+		DA22753F1D412347008FDD22 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2275321D412347008FDD22 /* Icon-App-40x40@3x.png */; };
+		DA2275401D412347008FDD22 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2275331D412347008FDD22 /* Icon-App-60x60@1x.png */; };
+		DA2275411D412347008FDD22 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2275341D412347008FDD22 /* Icon-App-60x60@2x.png */; };
+		DA2275421D412347008FDD22 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2275351D412347008FDD22 /* Icon-App-60x60@3x.png */; };
+		DA2275431D412347008FDD22 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2275361D412347008FDD22 /* Icon-App-76x76@1x.png */; };
+		DA2275441D412347008FDD22 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2275371D412347008FDD22 /* Icon-App-76x76@2x.png */; };
+		DA2275451D412347008FDD22 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2275381D412347008FDD22 /* Icon-App-76x76@3x.png */; };
+		DA2275461D412347008FDD22 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2275391D412347008FDD22 /* Icon-App-83.5x83.5@2x.png */; };
+		DACC23AA1D14452C00C09E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC23A91D14452C00C09E70 /* AppDelegate.swift */; };
+		DACC23AC1D14452C00C09E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC23AB1D14452C00C09E70 /* ViewController.swift */; };
+		DACC23AF1D14452C00C09E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACC23AD1D14452C00C09E70 /* Main.storyboard */; };
+		DACC23B21D14452C00C09E70 /* Gratuityp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DACC23B01D14452C00C09E70 /* Gratuityp.xcdatamodeld */; };
+		DACC23B41D14452C00C09E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACC23B31D14452C00C09E70 /* Assets.xcassets */; };
+		DACC23B71D14452C00C09E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACC23B51D14452C00C09E70 /* LaunchScreen.storyboard */; };
+		DACC23C21D14452C00C09E70 /* GratuitypTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC23C11D14452C00C09E70 /* GratuitypTests.swift */; };
+		DACC23CD1D14452C00C09E70 /* GratuitypUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACC23CC1D14452C00C09E70 /* GratuitypUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DACC23BE1D14452C00C09E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACC239E1D14452C00C09E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACC23A51D14452C00C09E70;
+			remoteInfo = Gratuityp;
+		};
+		DACC23C91D14452C00C09E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DACC239E1D14452C00C09E70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DACC23A51D14452C00C09E70;
+			remoteInfo = Gratuityp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA22752A1D411CAD008FDD22 /* Tips.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tips.jpg; sourceTree = "<group>"; };
+		DA22752D1D412347008FDD22 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@1x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		DA22752E1D412347008FDD22 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@2x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		DA22752F1D412347008FDD22 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-29x29@3x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		DA2275301D412347008FDD22 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@1x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		DA2275311D412347008FDD22 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@2x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		DA2275321D412347008FDD22 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-40x40@3x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		DA2275331D412347008FDD22 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@1x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		DA2275341D412347008FDD22 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@2x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		DA2275351D412347008FDD22 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@3x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		DA2275361D412347008FDD22 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-76x76@1x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		DA2275371D412347008FDD22 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-76x76@2x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		DA2275381D412347008FDD22 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-76x76@3x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		DA2275391D412347008FDD22 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-83.5x83.5@2x.png"; path = "Icons/Tips/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		DACC23A61D14452C00C09E70 /* Gratuityp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gratuityp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACC23A91D14452C00C09E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DACC23AB1D14452C00C09E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DACC23AE1D14452C00C09E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DACC23B11D14452C00C09E70 /* Gratuityp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gratuityp.xcdatamodel; sourceTree = "<group>"; };
+		DACC23B31D14452C00C09E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DACC23B61D14452C00C09E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DACC23B81D14452C00C09E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACC23BD1D14452C00C09E70 /* GratuitypTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratuitypTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACC23C11D14452C00C09E70 /* GratuitypTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratuitypTests.swift; sourceTree = "<group>"; };
+		DACC23C31D14452C00C09E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACC23C81D14452C00C09E70 /* GratuitypUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GratuitypUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DACC23CC1D14452C00C09E70 /* GratuitypUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratuitypUITests.swift; sourceTree = "<group>"; };
+		DACC23CE1D14452C00C09E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DACC23A31D14452C00C09E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACC23BA1D14452C00C09E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACC23C51D14452C00C09E70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA2275291D411C54008FDD22 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DA22752A1D411CAD008FDD22 /* Tips.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DA22752C1D41232C008FDD22 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				DA22752D1D412347008FDD22 /* Icon-App-29x29@1x.png */,
+				DA22752E1D412347008FDD22 /* Icon-App-29x29@2x.png */,
+				DA22752F1D412347008FDD22 /* Icon-App-29x29@3x.png */,
+				DA2275301D412347008FDD22 /* Icon-App-40x40@1x.png */,
+				DA2275311D412347008FDD22 /* Icon-App-40x40@2x.png */,
+				DA2275321D412347008FDD22 /* Icon-App-40x40@3x.png */,
+				DA2275331D412347008FDD22 /* Icon-App-60x60@1x.png */,
+				DA2275341D412347008FDD22 /* Icon-App-60x60@2x.png */,
+				DA2275351D412347008FDD22 /* Icon-App-60x60@3x.png */,
+				DA2275361D412347008FDD22 /* Icon-App-76x76@1x.png */,
+				DA2275371D412347008FDD22 /* Icon-App-76x76@2x.png */,
+				DA2275381D412347008FDD22 /* Icon-App-76x76@3x.png */,
+				DA2275391D412347008FDD22 /* Icon-App-83.5x83.5@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		DACC239D1D14452C00C09E70 = {
+			isa = PBXGroup;
+			children = (
+				DACC23A81D14452C00C09E70 /* Gratuityp */,
+				DACC23C01D14452C00C09E70 /* GratuitypTests */,
+				DACC23CB1D14452C00C09E70 /* GratuitypUITests */,
+				DACC23A71D14452C00C09E70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DACC23A71D14452C00C09E70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DACC23A61D14452C00C09E70 /* Gratuityp.app */,
+				DACC23BD1D14452C00C09E70 /* GratuitypTests.xctest */,
+				DACC23C81D14452C00C09E70 /* GratuitypUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DACC23A81D14452C00C09E70 /* Gratuityp */ = {
+			isa = PBXGroup;
+			children = (
+				DA22752C1D41232C008FDD22 /* Icons */,
+				DA2275291D411C54008FDD22 /* Images */,
+				DACC23A91D14452C00C09E70 /* AppDelegate.swift */,
+				DACC23AB1D14452C00C09E70 /* ViewController.swift */,
+				DACC23AD1D14452C00C09E70 /* Main.storyboard */,
+				DACC23B31D14452C00C09E70 /* Assets.xcassets */,
+				DACC23B51D14452C00C09E70 /* LaunchScreen.storyboard */,
+				DACC23B81D14452C00C09E70 /* Info.plist */,
+				DACC23B01D14452C00C09E70 /* Gratuityp.xcdatamodeld */,
+			);
+			path = Gratuityp;
+			sourceTree = "<group>";
+		};
+		DACC23C01D14452C00C09E70 /* GratuitypTests */ = {
+			isa = PBXGroup;
+			children = (
+				DACC23C11D14452C00C09E70 /* GratuitypTests.swift */,
+				DACC23C31D14452C00C09E70 /* Info.plist */,
+			);
+			path = GratuitypTests;
+			sourceTree = "<group>";
+		};
+		DACC23CB1D14452C00C09E70 /* GratuitypUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DACC23CC1D14452C00C09E70 /* GratuitypUITests.swift */,
+				DACC23CE1D14452C00C09E70 /* Info.plist */,
+			);
+			path = GratuitypUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DACC23A51D14452C00C09E70 /* Gratuityp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACC23D11D14452C00C09E70 /* Build configuration list for PBXNativeTarget "Gratuityp" */;
+			buildPhases = (
+				DACC23A21D14452C00C09E70 /* Sources */,
+				DACC23A31D14452C00C09E70 /* Frameworks */,
+				DACC23A41D14452C00C09E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gratuityp;
+			productName = Gratuityp;
+			productReference = DACC23A61D14452C00C09E70 /* Gratuityp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DACC23BC1D14452C00C09E70 /* GratuitypTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACC23D41D14452C00C09E70 /* Build configuration list for PBXNativeTarget "GratuitypTests" */;
+			buildPhases = (
+				DACC23B91D14452C00C09E70 /* Sources */,
+				DACC23BA1D14452C00C09E70 /* Frameworks */,
+				DACC23BB1D14452C00C09E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACC23BF1D14452C00C09E70 /* PBXTargetDependency */,
+			);
+			name = GratuitypTests;
+			productName = GratuitypTests;
+			productReference = DACC23BD1D14452C00C09E70 /* GratuitypTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DACC23C71D14452C00C09E70 /* GratuitypUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DACC23D71D14452C00C09E70 /* Build configuration list for PBXNativeTarget "GratuitypUITests" */;
+			buildPhases = (
+				DACC23C41D14452C00C09E70 /* Sources */,
+				DACC23C51D14452C00C09E70 /* Frameworks */,
+				DACC23C61D14452C00C09E70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACC23CA1D14452C00C09E70 /* PBXTargetDependency */,
+			);
+			name = GratuitypUITests;
+			productName = GratuitypUITests;
+			productReference = DACC23C81D14452C00C09E70 /* GratuitypUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DACC239E1D14452C00C09E70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Planet K Games";
+				TargetAttributes = {
+					DACC23A51D14452C00C09E70 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6CGSY8527L;
+					};
+					DACC23BC1D14452C00C09E70 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DACC23A51D14452C00C09E70;
+					};
+					DACC23C71D14452C00C09E70 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DACC23A51D14452C00C09E70;
+					};
+				};
+			};
+			buildConfigurationList = DACC23A11D14452C00C09E70 /* Build configuration list for PBXProject "Gratuityp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DACC239D1D14452C00C09E70;
+			productRefGroup = DACC23A71D14452C00C09E70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DACC23A51D14452C00C09E70 /* Gratuityp */,
+				DACC23BC1D14452C00C09E70 /* GratuitypTests */,
+				DACC23C71D14452C00C09E70 /* GratuitypUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DACC23A41D14452C00C09E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA22753A1D412347008FDD22 /* Icon-App-29x29@1x.png in Resources */,
+				DACC23B71D14452C00C09E70 /* LaunchScreen.storyboard in Resources */,
+				DA2275441D412347008FDD22 /* Icon-App-76x76@2x.png in Resources */,
+				DA22753C1D412347008FDD22 /* Icon-App-29x29@3x.png in Resources */,
+				DA22753B1D412347008FDD22 /* Icon-App-29x29@2x.png in Resources */,
+				DACC23B41D14452C00C09E70 /* Assets.xcassets in Resources */,
+				DA22753F1D412347008FDD22 /* Icon-App-40x40@3x.png in Resources */,
+				DA2275421D412347008FDD22 /* Icon-App-60x60@3x.png in Resources */,
+				DA2275411D412347008FDD22 /* Icon-App-60x60@2x.png in Resources */,
+				DA2275451D412347008FDD22 /* Icon-App-76x76@3x.png in Resources */,
+				DA22753D1D412347008FDD22 /* Icon-App-40x40@1x.png in Resources */,
+				DA2275431D412347008FDD22 /* Icon-App-76x76@1x.png in Resources */,
+				DA2275401D412347008FDD22 /* Icon-App-60x60@1x.png in Resources */,
+				DA22753E1D412347008FDD22 /* Icon-App-40x40@2x.png in Resources */,
+				DA2275461D412347008FDD22 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				DACC23AF1D14452C00C09E70 /* Main.storyboard in Resources */,
+				DA22752B1D411CAD008FDD22 /* Tips.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACC23BB1D14452C00C09E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACC23C61D14452C00C09E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DACC23A21D14452C00C09E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACC23AC1D14452C00C09E70 /* ViewController.swift in Sources */,
+				DACC23B21D14452C00C09E70 /* Gratuityp.xcdatamodeld in Sources */,
+				DACC23AA1D14452C00C09E70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACC23B91D14452C00C09E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACC23C21D14452C00C09E70 /* GratuitypTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DACC23C41D14452C00C09E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACC23CD1D14452C00C09E70 /* GratuitypUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DACC23BF1D14452C00C09E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACC23A51D14452C00C09E70 /* Gratuityp */;
+			targetProxy = DACC23BE1D14452C00C09E70 /* PBXContainerItemProxy */;
+		};
+		DACC23CA1D14452C00C09E70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DACC23A51D14452C00C09E70 /* Gratuityp */;
+			targetProxy = DACC23C91D14452C00C09E70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DACC23AD1D14452C00C09E70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACC23AE1D14452C00C09E70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DACC23B51D14452C00C09E70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DACC23B61D14452C00C09E70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DACC23CF1D14452C00C09E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DACC23D01D14452C00C09E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DACC23D21D14452C00C09E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Gratuityp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlanetKGames.Gratuityp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DACC23D31D14452C00C09E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Gratuityp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlanetKGames.Gratuityp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DACC23D51D14452C00C09E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GratuitypTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlanetKGames.GratuitypTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gratuityp.app/Gratuityp";
+			};
+			name = Debug;
+		};
+		DACC23D61D14452C00C09E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GratuitypTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlanetKGames.GratuitypTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gratuityp.app/Gratuityp";
+			};
+			name = Release;
+		};
+		DACC23D81D14452C00C09E70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GratuitypUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlanetKGames.GratuitypUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gratuityp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DACC23D91D14452C00C09E70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GratuitypUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PlanetKGames.GratuitypUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gratuityp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DACC23A11D14452C00C09E70 /* Build configuration list for PBXProject "Gratuityp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACC23CF1D14452C00C09E70 /* Debug */,
+				DACC23D01D14452C00C09E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACC23D11D14452C00C09E70 /* Build configuration list for PBXNativeTarget "Gratuityp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACC23D21D14452C00C09E70 /* Debug */,
+				DACC23D31D14452C00C09E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACC23D41D14452C00C09E70 /* Build configuration list for PBXNativeTarget "GratuitypTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACC23D51D14452C00C09E70 /* Debug */,
+				DACC23D61D14452C00C09E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DACC23D71D14452C00C09E70 /* Build configuration list for PBXNativeTarget "GratuitypUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DACC23D81D14452C00C09E70 /* Debug */,
+				DACC23D91D14452C00C09E70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DACC23B01D14452C00C09E70 /* Gratuityp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DACC23B11D14452C00C09E70 /* Gratuityp.xcdatamodel */,
+			);
+			currentVersion = DACC23B11D14452C00C09E70 /* Gratuityp.xcdatamodel */;
+			path = Gratuityp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DACC239E1D14452C00C09E70 /* Project object */;
+}
