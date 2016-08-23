@@ -31,6 +31,14 @@ class GratuitypUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let app = XCUIApplication()
+        app.buttons["Submit"].tap()
+        
+        let email = XCUIApplication().textFields["Enter Your Email Address"].value!
+        if (email as! String == "") {
+            XCTAssert(false)
+        }
+        
     }
     
 }

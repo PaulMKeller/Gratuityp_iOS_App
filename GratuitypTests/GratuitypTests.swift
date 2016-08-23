@@ -11,9 +11,18 @@ import XCTest
 
 class GratuitypTests: XCTestCase {
     
+    var viewController : ViewController!
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        viewController = storyboard.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+        UIApplication.sharedApplication().keyWindow!.rootViewController = viewController
+        
+        let _ = viewController.view
+        
     }
     
     override func tearDown() {
@@ -31,6 +40,16 @@ class GratuitypTests: XCTestCase {
         self.measureBlock {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testEmailAddressIsValid(){
+        // This is the wrong place for this.
+        // This is a UI test
+//        if (viewController.email == "") {
+//            XCTAssert(false, "The email address cannot be empty")
+//        } else {
+//            XCTAssert(true)
+//        }
     }
     
 }
