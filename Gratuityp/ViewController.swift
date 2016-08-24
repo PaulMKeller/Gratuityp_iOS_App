@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var fname: UITextField!
     @IBOutlet weak var lname: UITextField!
     @IBOutlet weak var country: UITextField!
+    @IBOutlet weak var confirm: UILabel!
     
     @IBAction func submit(sender: AnyObject) {
         submitDetails()
@@ -41,7 +42,10 @@ class ViewController: UIViewController {
         request.HTTPMethod = "POST"
         request.cachePolicy = NSURLRequestCachePolicy.ReloadIgnoringCacheData
         
-        let paramString = "email=bob@c.com&firstname=Trevor&lastname=McDonald&country=UK"
+        var paramString = "email=" + email.text!
+        paramString += "&firstname=" + fname.text!
+        paramString += "&lastname=" + lname.text!
+        paramString += "&country=" + country.text!
         request.HTTPBody = paramString.dataUsingEncoding(NSUTF8StringEncoding)
         
         let task = session.dataTaskWithRequest(request) {
@@ -55,11 +59,27 @@ class ViewController: UIViewController {
             
             let dataString = NSString(data: data!, encoding: NSUTF8StringEncoding)
             print(dataString)
-            
         }
         
         task.resume()
+        /*
+         self.email.text = ""
+         self.fname.text = ""
+         self.lname.text = ""
+         self.country.text = ""
+         self.confirm.text = "Thank you for registering!"
+         
+        _ = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: #selector(ViewController.clearMessage), userInfo: nil, repeats: false)
+         */
+        
+        self.confirm.text = "Thank you for registering!"
     }
+    
+/*
+    func clearMessage(){
+        self.confirm.text = ""
+    }
+ */
 
 
 }
