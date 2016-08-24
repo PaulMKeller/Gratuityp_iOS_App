@@ -34,36 +34,31 @@ class ViewController: UIViewController {
     */
     func submitDetails() {
         
-            let url:NSURL = NSURL(string: "http://www.gratuityp.com/php/register.php")!
-            let session = NSURLSession.sharedSession()
+        let url:NSURL = NSURL(string: "http://www.gratuityp.com/php/register.php")!
+        let session = NSURLSession.sharedSession()
+        
+        let request = NSMutableURLRequest(URL: url)
+        request.HTTPMethod = "POST"
+        request.cachePolicy = NSURLRequestCachePolicy.ReloadIgnoringCacheData
+        
+        let paramString = "email=bob@c.com&firstname=Trevor&lastname=McDonald&country=UK"
+        request.HTTPBody = paramString.dataUsingEncoding(NSUTF8StringEncoding)
+        
+        let task = session.dataTaskWithRequest(request) {
+            (
+            let data, let response, let error) in
             
-            let request = NSMutableURLRequest(URL: url)
-            request.HTTPMethod = "POST"
-            request.cachePolicy = NSURLRequestCachePolicy.ReloadIgnoringCacheData
-            
-            let paramString = "email=bob@c.com,firstname=Trevor,Lastname=McDonald,country=UK"
-            request.HTTPBody = paramString.dataUsingEncoding(NSUTF8StringEncoding)
-            
-            let task = session.dataTaskWithRequest(request) {
-                (
-                let data, let response, let error) in
-                
-                guard let _:NSData = data, let _:NSURLResponse = response  where error == nil else {
-                    print("error")
-                    return
-                }
-                
-                let dataString = NSString(data: data!, encoding: NSUTF8StringEncoding)
-                print(dataString)
-                
+            guard let _:NSData = data, let _:NSURLResponse = response  where error == nil else {
+                print("error")
+                return
             }
             
-            task.resume()
+            let dataString = NSString(data: data!, encoding: NSUTF8StringEncoding)
+            print(dataString)
             
+        }
         
-        
-        
-        
+        task.resume()
     }
 
 
