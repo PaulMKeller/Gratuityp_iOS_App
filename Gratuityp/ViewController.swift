@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var fname: UITextField!
@@ -23,11 +23,26 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        email.returnKeyType = .Done
+        fname.returnKeyType = .Done
+        lname.returnKeyType = .Done
+        country.returnKeyType = .Done
+        
+        email.delegate = self
+        fname.delegate = self
+        lname.delegate = self
+        country.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
     /**
