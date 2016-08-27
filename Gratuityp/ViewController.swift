@@ -77,25 +77,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         
         task.resume()
-        /*
-         self.email.text = ""
-         self.fname.text = ""
-         self.lname.text = ""
-         self.country.text = ""
-         self.confirm.text = "Thank you for registering!"
-         
-        _ = NSTimer.scheduledTimerWithTimeInterval(10, target: self, selector: #selector(ViewController.clearMessage), userInfo: nil, repeats: false)
-         */
         
         self.confirm.text = "Thank you for registering!"
     }
-    
-/*
-    func clearMessage(){
-        self.confirm.text = ""
-    }
- */
-
 
 }
 
